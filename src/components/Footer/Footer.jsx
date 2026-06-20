@@ -1,6 +1,6 @@
 import React from 'react';
 import { Instagram, Linkedin, Mail, MapPin, Phone } from 'lucide-react';
-import logoImg from '../image/logo.png';
+import logoImg from '../../image/logo.png';
 import './Footer.css';
 
 export default function Footer() {

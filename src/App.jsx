@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Services from './components/Services';
-import About from './components/About';
-import Manifesto from './components/Manifesto';
-import WhatsAppFloat from './components/WhatsAppFloat';
-import Footer from './components/Footer';
+import Header from './components/Header/Header';
+import Hero from './components/Hero/Hero';
+import Services from './components/Services/Services';
+import About from './components/About/About';
+import Manifesto from './components/Manifesto/Manifesto';
+import WhatsAppFloat from './components/WhatsAppFloat/WhatsAppFloat';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (

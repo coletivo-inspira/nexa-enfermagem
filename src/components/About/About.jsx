@@ -1,7 +1,7 @@
 import React from 'react';
 import { Award, Briefcase, GraduationCap, MapPin, Linkedin, Mail } from 'lucide-react';
-import perfilSerioImg from '../image/perfil_serio.png';
-import logoImg from '../image/logo.png';
+import perfilSerioImg from '../../image/perfil_de_lado.png';
+import logoImg from '../../image/logo.png';
 import './About.css';
 
 export default function About() {

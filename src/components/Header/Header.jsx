@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
-import logoImg from '../image/logo.png';
+import logoImg from '../../image/logo2.png';
 import './Header.css';
 
 export default function Header() {
@@ -28,14 +28,14 @@ export default function Header() {
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="container header-container">
         <a href="#inicio" className="logo-container">
-          <img 
-            src={logoImg} 
-            alt="Nexa Enfermagem" 
-            className="logo-img" 
+          <img
+            src={logoImg}
+            alt="Nexa Enfermagem"
+            className="logo-img"
             onError={(e) => {
               e.target.style.display = 'none';
               e.target.nextSibling.style.display = 'flex';
-            }} 
+            }}
           />
           <div className="text-logo" style={{ display: 'none' }}>
             <span className="symbol">❖</span>

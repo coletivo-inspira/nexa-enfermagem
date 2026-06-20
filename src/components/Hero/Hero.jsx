@@ -1,7 +1,7 @@
 import React from 'react';
 import { MessageCircle, ShieldCheck, HeartPulse } from 'lucide-react';
-import trabalhandoImg from '../image/trabalhando.png';
-import logoImg from '../image/logo.png';
+import trabalhandoImg from '../../image/trabalhando.png';
+import logoImg from '../../image/logo.png';
 import './Hero.css';
 
 export default function Hero() {
