@@ -1,6 +1,7 @@
 {
   "name": "nexa-enfermagem",
   "private": true,
+  "homepage": "https://nexaenfermagem.inspira.dev.br/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

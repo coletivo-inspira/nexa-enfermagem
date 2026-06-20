@@ -2,6 +2,8 @@
 
 **Nexa Enfermagem** é especializada em **Atendimento Domiciliar**, levando cuidado que vai até você.
 
+🌍 **Acesse o site:** [https://nexaenfermagem.inspira.dev.br/](https://nexaenfermagem.inspira.dev.br/)
+
 ---
 
 ## 🎨 Identidade Visual e Valores
