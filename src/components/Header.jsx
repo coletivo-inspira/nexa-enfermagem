@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
+import logoImg from '../image/logo.png';
 import './Header.css';
 
 export default function Header() {
@@ -28,7 +29,7 @@ export default function Header() {
       <div className="container header-container">
         <a href="#inicio" className="logo-container">
           <img 
-            src="/logo.png" 
+            src={logoImg} 
             alt="Nexa Enfermagem" 
             className="logo-img" 
             onError={(e) => {

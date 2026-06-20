@@ -1,5 +1,7 @@
 import React from 'react';
 import { MessageCircle, ShieldCheck, HeartPulse } from 'lucide-react';
+import trabalhandoImg from '../image/trabalhando.png';
+import logoImg from '../image/logo.png';
 import './Hero.css';
 
 export default function Hero() {
@@ -49,11 +51,11 @@ export default function Hero() {
         <div className="hero-media">
           <div className="image-wrapper">
             <img 
-              src="/trabalhando.png" 
+              src={trabalhandoImg} 
               alt="Profissional de enfermagem Nexa realizando atendimento" 
               className="hero-img" 
               onError={(e) => {
-                e.target.src = '/logo.png';
+                e.target.src = logoImg;
                 e.target.classList.add('fallback-logo');
               }}
             />

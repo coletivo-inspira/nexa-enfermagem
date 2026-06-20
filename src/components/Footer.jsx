@@ -1,5 +1,6 @@
 import React from 'react';
 import { Instagram, Linkedin, Mail, MapPin, Phone } from 'lucide-react';
+import logoImg from '../image/logo.png';
 import './Footer.css';
 
 export default function Footer() {
@@ -15,7 +16,7 @@ export default function Footer() {
         <div className="footer-brand">
           <a href="#inicio" className="footer-logo">
             <img 
-              src="/logo.png" 
+              src={logoImg} 
               alt="Nexa Enfermagem Logo" 
               className="footer-logo-img"
               onError={(e) => {

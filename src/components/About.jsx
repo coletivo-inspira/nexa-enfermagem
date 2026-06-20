@@ -1,5 +1,7 @@
 import React from 'react';
 import { Award, Briefcase, GraduationCap, MapPin, Linkedin, Mail } from 'lucide-react';
+import perfilSerioImg from '../image/perfil_serio.png';
+import logoImg from '../image/logo.png';
 import './About.css';
 
 export default function About() {
@@ -35,7 +37,7 @@ export default function About() {
         <div className="about-media">
           <div className="profile-image-container">
             <img 
-              src="/perfil_serio.png" 
+              src={perfilSerioImg} 
               alt="Enfermeiro Ítalo Coelho" 
               className="profile-img main"
               onError={(e) => {
@@ -45,7 +47,7 @@ export default function About() {
             />
             {/* Fallback image */}
             <img 
-              src="/logo.png" 
+              src={logoImg} 
               alt="Nexa Enfermagem" 
               className="profile-img fallback" 
               style={{ display: 'none', padding: '30px', backgroundColor: '#fff' }}
